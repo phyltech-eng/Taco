@@ -1,0 +1,245 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color:aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 1rem 2rem;
+}
+
+nav .logo img  {
+    width: 100px;
+    height: auto;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ff4c4c;}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-image: url('OIP.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00aced;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008cba;
+}
+/* About Section */
+.about {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-content h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    color: black;
+  }
+  
+  .about-content ul {
+    margin-top: 1rem;
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-content p strong {
+    color: black;
+  }
+  /* Contact Section */
+.contact {
+    padding: 3rem 1rem;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Contact Details */
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-details .address,
+  .contact-details .social-media {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details p,
+  .contact-details a {
+    font-size: 1.1rem;
+  }
+  
+  .contact-details a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-details a:hover {
+    color:black;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-form h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form .submit-button {
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form .submit-button:hover {
+    background-color: aliceblue;
+  }
+  
+  /* Map Section */
+  .map {
+    margin-top: 3rem;
+  }
+  
+  .map h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color:black;
+  }
+  
